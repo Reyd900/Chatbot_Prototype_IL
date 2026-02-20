@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: wizklub-chatbot
+    env: node
+    plan: free
+    repo: https://github.com/Reyd900/Chatbot_Prototype_IL
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
